@@ -9,4 +9,4 @@ License: GPL v3
 - Initial Release
 
 ## Related Tutorial
-[![Megagrid Tutorial](https://www.youtube.com/watch?v=2bK3juor2-c)](https://www.youtube.com/watch?v=2bK3juor2-c)
+[![Megagrid Tutorial](https://i.imgur.com/46BwBQ5.png)](https://www.youtube.com/watch?v=2bK3juor2-c)
