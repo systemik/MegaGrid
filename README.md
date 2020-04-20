@@ -1,16 +1,7 @@
 # MegaGrid
-Simple Python script to randomly spam subdivisions
+Simple Python script to randomly spam subdivisions (Based on excellent idea from Midge **"Mantissa"** Sinnaeve)
 
 License: GPL v3
-
-# Current issue (need to find a way to program those steps)
-
-MISSING STEPS :
-
-  In the LEVEL object Vertex Weight modifier you need to put the left cureve point to the top (X=0, Y=1)
-  
-  In the Texture Mask, You need to chosse the texture called "MaskTex"
-  
 
 # How to use
 
@@ -18,9 +9,9 @@ Just pick the number of divisions (soft limit set to 5)
 
 Pick the number of floors (soft limit to 15)
 
-Start low (like 1 floor to see how it works)
+Start with low floor nuumber (like 1 floor to see how it works)
 
-Do not click creation of modifiers at first to ensure you have something workable
+Do not click creation of modifiers at first to ensure you have something workable in terms of computer capacity
 
 If you want to start fresh, click the "DELETE ALL" button
 
