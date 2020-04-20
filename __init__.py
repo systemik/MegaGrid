@@ -4,12 +4,12 @@
 
 bl_info = {
     "name": "MegaGrid",
-    "author": "Systemik \"Systemic\" based on idea from Midge \"Mantissa\" Sinnaeve",
-    "version": (0, 1, 0),
+    "author": "Midge \"Mantissa\" Sinnaeve and Systemic",
+    "version": (0, 0, 1),
     "blender": (2, 80, 0),
     "location": "View3D > Tool Shelf > Megagrid Tab",
     "description": "Create megagrid cubes",
-    "wiki_url": "https://github.com/systemik/MegaGrid",
+    "wiki_url": "https://github.com/xxx",
     "category": "3D View",
     "warning": "You might have fun"
 }
@@ -108,7 +108,6 @@ class MegaGridDelete(bpy.types.Operator):
         
         bpy.ops.object.select_all(action='SELECT')
         bpy.ops.object.delete(use_global=False)
-        bpy.ops.object.delete_custom(use_global=False)
         
         return {'FINISHED'}
         
@@ -285,10 +284,8 @@ class MegaGrid(bpy.types.Operator):
             bpy.context.object.modifiers["VertexWeightEdit"].use_remove = True
             bpy.context.object.modifiers["VertexWeightEdit"].falloff_type = 'CURVE'
             bpy.context.object.modifiers["VertexWeightEdit"].vertex_group = "Mask"
-            ##  MISSING STEPS :
-            ## In the LEVEL object Vertex Weight modifier you need to put the left cureve point to the top (X=0, Y=1)
-            ## In the Texture Mask, You need to chosse the texture called "MaskTex"
-
+            bpy.context.object.modifiers["VertexWeightEdit"].mask_texture = bpy.data.textures[0]
+            bpy.context.object.modifiers["VertexWeightEdit"].invert_falloff = True
             bpy.ops.object.modifier_add(type='MASK')
             bpy.context.object.modifiers["Mask"].vertex_group = "Mask"
             
