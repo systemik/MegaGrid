@@ -9,7 +9,7 @@ bl_info = {
     "blender": (2, 80, 0),
     "location": "View3D > Tool Shelf > Megagrid Tab",
     "description": "Create megagrid cubes",
-    "wiki_url": "https://github.com/xxx",
+    "wiki_url": "https://github.com/systemik/MegaGrid",
     "category": "3D View",
     "warning": "You might have fun"
 }
