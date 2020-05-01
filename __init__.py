@@ -254,6 +254,7 @@ class MegaGrid(bpy.types.Operator):
             bpy.context.object.instance_type = 'FACES'
             bpy.context.object.use_instance_faces_scale = True
             bpy.context.object.show_instancer_for_viewport = False
+            bpy.context.object.show_instancer_for_render = False
 
 #############################
 ## Create modifiers?
