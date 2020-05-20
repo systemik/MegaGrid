@@ -9,7 +9,7 @@ Just pick the number of divisions (soft limit set to 5)
 
 Pick the number of floors (soft limit to 15)
 
-Start with low floor nuumber (like 1 floor to see how it works)
+Start with low floor number (like 1 floor to see how it works)
 
 Do not click creation of modifiers at first to ensure you have something workable in terms of computer capacity
 
