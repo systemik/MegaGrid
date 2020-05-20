@@ -1,4 +1,4 @@
-# Megagrid created by Midge Systemic (cimetsys)
+# Megagrid created by Systemic (systemik)
 # Initial script and idea downloaded form https://github.com/mantissa-/RandoMesh
 # Licensed under GPLv3
 
